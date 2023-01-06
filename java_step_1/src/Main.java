@@ -69,8 +69,32 @@ public class Main {
 
         System.out.println(Arrays.toString(numbers1));
 
+        // multi dimensional array
+        int [][][] twoDimension = new int[2][3][5];
+        int [][] twoDimension1 = { { 1, 2, 3}, { 4, 5, 6} };
+        twoDimension[0][0][4] = 1;
+        System.out.println(Arrays.deepToString(twoDimension));
+        System.out.println(Arrays.deepToString(twoDimension1));
 
+        arithmeticExpression();
     }
+
+    public static void constant() {
+        final float PI = 3.14F;
+    }
+
+    public static void arithmeticExpression() {
+        int willBeInt = 10 / 3;
+        double result = (double)10 / (double) 3; // get a int
+        System.out.println(willBeInt);
+        System.out.println(result);
+
+        int x = 1;
+        int y = x++; // first y = x, then y = y + 1
+        System.out.println(x);
+        System.out.println(y);
+    }
+
 }
 
 // run javac Main.java can get the javabite file -- compiltion
