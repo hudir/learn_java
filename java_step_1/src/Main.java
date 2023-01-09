@@ -118,6 +118,10 @@ public class Main {
         // Short.parseShort();
         // Float.parseFloat();
         System.out.println(y);
+
+        String x2 = "1.1";
+        double y2 = Double.parseDouble(x2) + 11.1;
+        System.out.println(y2);
     }
 
 
