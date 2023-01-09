@@ -76,7 +76,8 @@ public class Main {
         System.out.println(Arrays.deepToString(twoDimension));
         System.out.println(Arrays.deepToString(twoDimension1));
 
-        arithmeticExpression();
+        // arithmeticExpression();
+        // castingAndTypeConvertion();
     }
 
     public static void constant() {
@@ -90,10 +91,36 @@ public class Main {
         System.out.println(result);
 
         int x = 1;
-        int y = x++; // first y = x, then y = y + 1
+        int y = x++; // first y = x, then y =
+        // y + 1
         System.out.println(x);
         System.out.println(y);
+        int z = 1;
+        // z = z + 2;
+        // z += 2;
+        // z -= 2;
+        z = (10 + 3) * 3;
+        System.out.println(z);
     }
+
+    public static void castingAndTypeConvertion() {
+        // byte > short > int > long > float > double
+         int x = 1;
+         // short y = x + 2; // implicit casting - automotive conversion
+         // java: incompatible types: possible lossy conversion from int to short
+         // System.out.println(y);
+         double z = 1.1;
+         int u = (int)z + 2; // explicit casting
+        System.out.println(u);
+
+        String x1 = "1";
+        int y = Integer.parseInt(x1) + 6;
+        // Short.parseShort();
+        // Float.parseFloat();
+        System.out.println(y);
+    }
+
+
 
 }
 
