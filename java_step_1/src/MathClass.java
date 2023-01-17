@@ -1,13 +1,23 @@
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class MathClass {
 
     public static void main(String[] args) {
         // mathClassAndRandomNumbers();
         // formattingNumbers();
+        // readingInput();
+        // at 1:30:47
     }
     public static void readingInput() {
+        Scanner scanner = new Scanner(System.in);
+        // System.out.print("Age: ");
+        // byte age = scanner.nextByte();
+        // System.out.println("You are " + name);
 
+        System.out.print("Name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("You are " + name);
     }
 
     public  static void formattingNumbers() {

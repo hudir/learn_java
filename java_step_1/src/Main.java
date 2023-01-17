@@ -77,7 +77,7 @@ public class Main {
         System.out.println(Arrays.deepToString(twoDimension1));
 
         // arithmeticExpression();
-        // castingAndTypeConvertion();
+        castingAndTypeConvertion();
     }
 
     public static void constant() {
