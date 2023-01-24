@@ -10,7 +10,7 @@ public class comparisonOp {
 //        theTernaryOp();
 //        switchStatments();
 //        switchStatments1();
-        fizzBuzz();
+       fizzBuzz();
     }
 
     public static void fizzBuzz() {
